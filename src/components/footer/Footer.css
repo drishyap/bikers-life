@@ -1,0 +1,57 @@
+.footer {
+    background-color: black;
+    color: #fff;
+    height: 60vh;
+}
+
+.title {
+    display: flex;
+    padding-top: 20px;
+}
+
+.footer-h1 {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.footer-p {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 14px;
+    margin-right: 50px;
+    margin-left: 50px;
+    width: 50%;
+}
+
+.footer-menu {
+    display: flex;
+}
+
+.footer-menu-list {
+    flex: 1;
+    margin-left: 50px;
+    list-style: none;
+}
+
+.footer-menu-items {
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottom-text {
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}

@@ -1,0 +1,128 @@
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+}
+
+.logo {
+    flex: 1;
+    display: flex;
+    padding-left: 60px;
+    align-items: center;
+    font-size: 35px;
+    font-weight: 300;
+}
+
+.menu {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    padding-right: 60px;
+    transition: 0.3s ease-in-out;
+}
+
+.menu-items {
+    font-size: 17px;
+    font-weight: 300;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    position: relative;
+    padding-bottom: 2px;
+}
+
+.menu-items::after {
+    content: "";
+    position: absolute;
+    background-color: #fff;
+    height: 1.8px;
+    width: 0;
+    left: 0;
+    bottom: 0;
+    transition: 0.3s ease-in-out;
+}
+
+.menu-items:hover:after {
+    width: 100%;
+}
+
+.hero {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 90vh;
+    padding-bottom: 50px;
+    position: relative;
+}
+
+.hero-img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+}
+
+.hero-texts {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 50px;
+    position: absolute;
+}
+
+.hero-desc {
+    font-size: 40px;
+    margin-bottom: 30px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    width: 65%;
+    text-align: center;
+    color: #fff;
+}
+
+.button {
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.btn {
+    border: none;
+    padding: 10px 60px;
+    font-size: 18px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: 0.4s ease-in-out;
+}
+
+.btn-left {
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+}
+
+.btn-left:hover {
+    border: 2px solid rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+.btn-right {
+    background-color: #fff;
+    color: rgb(0, 0, 0);
+}
+
+.btn-right:hover {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
